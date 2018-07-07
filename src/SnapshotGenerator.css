@@ -1,0 +1,40 @@
+.BackgroundOverlay {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  opacity: .25;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 800px;
+  margin: auto;
+  padding: 30px;
+  z-index: 1;
+}
+
+.SettingsForm {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.ImageCanvas {
+  display: flex;
+  width: 100%;
+  min-height: 360px;
+  overflow-y: auto;
+  border: 1px dashed #666666;
+  padding: 15px;
+  margin: 8px 0 16px;
+}
+
+.ColorPicker, .NumberSelector {
+  width: 90px;
+}

@@ -1,0 +1,28 @@
+{
+  "name":
+    "react-html2canvas-creating-a-dom-screenshot-and-saving-it-as-image-file",
+  "version": "1.0.0",
+  "description":
+    "This React project shows how we can create a screenshot of any DOM element and save it as image file to the user´s computer. \n\nNote that older browsers may require a polyfill.",
+  "keywords": ["react", "javascript", "screenshot", "html2canvas"],
+  "homepage": "https://codesandbox.io/s/new",
+  "main": "src/index.js",
+  "dependencies": {
+    "canvas-toBlob": "1.0.0",
+    "classnames": "2.2.5",
+    "file-saver": "1.3.3",
+    "html2canvas": "1.0.0-alpha.10",
+    "material-ui": "1.0.0-beta.35",
+    "prop-types": "15.6.1",
+    "react": "16.2.0",
+    "react-dom": "16.2.0",
+    "react-scripts": "1.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
